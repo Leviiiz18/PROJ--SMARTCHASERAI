@@ -13,9 +13,9 @@ A demonstration project showcasing a **neural network-controlled agent** in a 3D
 
 <table>
   <tr>
-    <td><img src="screenshots/training_ui.png" alt="Training UI" width="100%"/></td>
-    <td><img src="screenshots/testing_ui.png" alt="Testing UI" width="100%"/></td>
-    <td><img src="screenshots/unity_ui.png" alt="Unity Demo" width="100%"/></td>
+    <td><img src="TRAINING.png" alt="Training UI" width="100%"/></td>
+    <td><img src="TESTING.png alt="Testing " width="100%"/></td>
+    <td><img src="UNITYUI.png" alt="Unity Demo" width="100%"/></td>
   </tr>
   <tr>
     <td align="center"><b>Training UI (Python)</b><br/>Neural network training progress</td>
