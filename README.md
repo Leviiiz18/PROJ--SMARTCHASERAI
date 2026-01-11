@@ -9,6 +9,23 @@ A demonstration project showcasing a **neural network-controlled agent** in a 3D
 
 ---
 
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src="screenshots/training_ui.png" alt="Training UI" width="100%"/></td>
+    <td><img src="screenshots/testing_ui.png" alt="Testing UI" width="100%"/></td>
+    <td><img src="screenshots/unity_ui.png" alt="Unity Demo" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Training UI (Python)</b><br/>Neural network training progress</td>
+    <td align="center"><b>Testing UI (Python)</b><br/>Validating trained brain</td>
+    <td align="center"><b>Unity Demo UI</b><br/>Real-time agent control</td>
+  </tr>
+</table>
+
+---
+
 ## 🎯 Project Goals
 
 - Demonstrate **neural network decision-making** in real-time
@@ -20,40 +37,50 @@ A demonstration project showcasing a **neural network-controlled agent** in a 3D
 
 ## 🏗️ Project Structure
 
+### 🎮 Unity Files
+
 ```
-unity-neural-agent-demo/
-│
-├── Assets/                          # Unity project files
-│   ├── Scenes/                      # Unity scenes
-│   ├── Scripts/
-│   │   ├── PlayerController.cs      # Player/agent movement controller
-│   │   ├── ChaserAgent.cs           # Neural network agent logic
-│   │   ├── CameraDirector.cs        # Camera follow system
-│   │   ├── NeuralNetwork.cs         # Neural network implementation
-│   │   ├── PythonConnector.cs       # Unity ↔ Python bridge
-│   │   ├── InputSystem.cs           # Input handling
-│   │   └── KeyDisplay.cs            # Real-time key display UI
-│   ├── Materials/
-│   │   ├── BlueMat.mat
-│   │   ├── RedMat.mat
-│   │   ├── GrayMat.mat
-│   │   └── Grass.mat
-│   ├── TerrainDemo/                 # Environment assets
-│   ├── LowlyPoly/                   # Low poly models
-│   ├── Free/                        # Free asset packs
-│   └── Settings/                    # Project settings
-│
-├── Python/                          # Neural network training
-│   ├── brain.py                     # Main training script
-│   ├── test_brain.py                # Testing script
-│   ├── config-feedforward.txt       # NEAT configuration
-│   ├── best_genome.pkl              # Trained genome
-│   ├── HS1.pkl                      # Hidden state snapshots
-│   ├── HS2.pkl
-│   ├── HS3.pkl
-│   └── requirements.txt             # Python dependencies
-│
-└── README.md                        # This file
+Assets/
+├── Scenes/                      # Unity scenes
+├── Scripts/
+│   ├── PlayerController.cs      # Player/agent movement controller
+│   ├── ChaserAgent.cs           # Neural network agent logic
+│   ├── CameraDirector.cs        # Camera follow system
+│   ├── NeuralNetwork.cs         # Neural network implementation
+│   ├── PythonConnector.cs       # Unity ↔ Python bridge
+│   ├── InputSystem.cs           # Input handling
+│   └── KeyDisplay.cs            # Real-time key display UI
+├── Materials/
+│   ├── BlueMat.mat              # Blue material
+│   ├── RedMat.mat               # Red material
+│   ├── GrayMat.mat              # Gray material
+│   └── Grass.mat                # Grass material
+├── TerrainDemo/                 # Environment assets
+├── LowlyPoly/                   # Low poly models
+├── Free/                        # Free asset packs
+├── TextMesh Pro/                # Text rendering
+├── TutorialInfo/                # Unity tutorial data
+└── Settings/                    # Project settings
+```
+
+### 🐍 Python Files
+
+```
+Python/
+├── venv/                        # Python virtual environment
+├── brain.py                     # Main training script
+├── test_brain.py                # Testing script
+├── config-feedforward.txt       # NEAT configuration
+└── requirements.txt             # Python dependencies
+```
+
+### 📸 Screenshots Folder
+
+```
+screenshots/
+├── training_ui.png              # Training interface screenshot
+├── testing_ui.png               # Testing interface screenshot
+└── unity_ui.png                 # Unity demo screenshot
 ```
 
 ---
@@ -186,7 +213,7 @@ Update materials in `Assets/Materials/` or add new models to `Assets/LowlyPoly/`
 
 - Unity is **not** used for training, only for visualization
 - Training happens entirely in Python using NEAT-Python
-- The `.pkl` files contain serialized neural networks
+- The `best_genome.pkl` file contains the serialized neural network
 - This project is designed for **educational purposes**
 
 ---
@@ -220,6 +247,12 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 ---
 
 ## 📧 Contact
+
+For questions or feedback, reach out via GitHub issues or pull requests.
+
+---
+
+**⭐ If you find this project useful, please consider giving it a star!**
 
 For questions or feedback, reach out via GitHub issues or pull requests.
 
