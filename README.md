@@ -1,7 +1,6 @@
-# PROJ--SMARTCHASERAI
-# 🧠 Unity Neural Agent Demo
+# 🧠 Unity Neural Agent
 
-A demonstration project showcasing a **neural network-controlled agent** in a 3D Unity environment. The brain is trained in Python using NEAT (NeuroEvolution of Augmenting Topologies) and deployed in Unity for real-time visualization.
+A project showcasing a **neural network-controlled agent** in a 3D Unity environment. The brain is trained in Python using NEAT (NeuroEvolution of Augmenting Topologies) and deployed in Unity for real-time visualization.
 
 ![Unity Version](https://img.shields.io/badge/Unity-6-black?logo=unity)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
@@ -11,18 +10,12 @@ A demonstration project showcasing a **neural network-controlled agent** in a 3D
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td><img src="TRAINING.png" alt="Training UI" width="100%"/></td>
-    <td><img src="TESTING.png" alt="Training UI" width="100%"/></td
-    <td><img src="UNITYUI1.png" alt="Unity Demo" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Training UI (Python)</b><br/>Neural network training progress</td>
-    <td align="center"><b>Testing UI (Python)</b><br/>Validating trained brain</td>
-    <td align="center"><b>Unity Demo UI</b><br/>Real-time agent control</td>
-  </tr>
-</table>
+| Training UI (Python) | Testing UI (Python) | Unity UI |
+|:---:|:---:|:---:|
+| ![Training UI](TRAINING.png) | ![Testing UI](TESTING.png) | ![Unity](UNITYUI1.png) |
+| Neural network training progress | Validating trained brain | Real-time agent control |
+
+> **⚠️ Disclaimer:** The outputs and behaviors shown in these screenshots may differ from your results. This project uses **environment-based neural evolution**, meaning each training session produces unique neural networks based on random initial conditions, mutations, and environmental interactions. Your agent's behavior and performance may vary significantly from run to run.
 
 ---
 
@@ -126,8 +119,7 @@ screenshots/
 1. Open the project in **Unity 6**
 2. Navigate to `Assets/Scenes/` and open the main scene
 3. In the Inspector, locate the agent GameObject
-4. Enable **Demo Mode** if you want to use the pre-trained brain
-5. Press **Play** to start the simulation
+4. Press **Play** to start the simulation
 
 ---
 
@@ -163,7 +155,7 @@ screenshots/
 
 ---
 
-## 🧪 Demo Controls
+## 🧪 Controls
 
 | Key | Action |
 |-----|--------|
@@ -247,12 +239,6 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 ---
 
 ## 📧 Contact
-
-For questions or feedback, reach out via GitHub issues or pull requests.
-
----
-
-**⭐ If you find this project useful, please consider giving it a star!**
 
 For questions or feedback, reach out via GitHub issues or pull requests.
 
