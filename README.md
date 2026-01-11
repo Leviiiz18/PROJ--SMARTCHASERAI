@@ -12,7 +12,7 @@ A project showcasing a **neural network-controlled agent** in a 3D Unity environ
 
 | Training UI (Python) | Testing UI (Python) | Unity UI |
 |:---:|:---:|:---:|
-| ![Training UI](TRAINING.png) | ![Testing UI](TESTING.png) | ![Unity](UNITYUI1.png) |
+| ![Training UI](Image/TRAINING.png) | ![Testing UI](Image/TESTING.png) | ![Unity](Image/UNITYUI1.png) |
 | Neural network training progress | Validating trained brain | Real-time agent control |
 
 > **⚠️ Disclaimer:** The outputs and behaviors shown in these screenshots may differ from your results. This project uses **environment-based neural evolution**, meaning each training session produces unique neural networks based on random initial conditions, mutations, and environmental interactions. Your agent's behavior and performance may vary significantly from run to run.
